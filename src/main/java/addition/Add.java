@@ -1,4 +1,4 @@
-package devopstraining;
+package addition;
 
 import java.io.IOException;
 import java.io.PrintWriter;
