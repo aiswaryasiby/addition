@@ -10,8 +10,28 @@
   	<description></description>
   	<servlet-class>devopstraining.Add</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>Addition</servlet-name>
+  	<display-name>Addition</display-name>
+  	<description></description>
+  	<servlet-class>Add</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Add1</servlet-name>
+  	<display-name>Add1</display-name>
+  	<description></description>
+  	<servlet-class>Add</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>Add</servlet-name>
   	<url-pattern>/Add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Addition</servlet-name>
+  	<url-pattern>/Addition</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Add1</servlet-name>
+  	<url-pattern>/Add1</url-pattern>
   </servlet-mapping>
 </web-app>
