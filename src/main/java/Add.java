@@ -30,8 +30,8 @@ public class Add extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		out= response.getWriter(); 
-		String num1=(request.getParameter("n1"));
-		String num2=(request.getParameter("n2"));
+		String num1=(request.getParameter("no1"));
+		String num2=(request.getParameter("no2"));
 		out.println(printAdd(num1,num2));
 	}
 
