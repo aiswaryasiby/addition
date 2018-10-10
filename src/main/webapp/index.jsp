@@ -10,7 +10,7 @@
 <body>
 
 <h1>Addition</h1>
-<form action="Add">
+<form action="Add1">
 <input type="text" name="no1">
 <input type="button" value="+">
 <input type="text" name="no2">
